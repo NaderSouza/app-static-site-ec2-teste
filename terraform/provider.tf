@@ -11,9 +11,9 @@ terraform {
   }
 
     backend "s3" {
-      bucket         = "app-static-site-ec2-tf-nadin"
+      bucket         = "teste-cp1"
       key            = "terraform.tfstate"
-      dynamodb_table = "app-static-site-ec2-tf-nadin"
+      dynamodb_table = "teste-cp1"
       region         = "us-east-1"
     }
 
